@@ -1,5 +1,5 @@
 {
-  "name": "auth0-realm",
+  "name": "realm-auth0-authenticator",
   "description": "Package for the realm Server that authenticates the user using an JWT access_token obtained from auth0",
   "version": "0.0.1",
   "dependencies": {

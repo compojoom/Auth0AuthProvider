@@ -1,7 +1,17 @@
-##Auth0AuthProvider for [Realm Object Server](https://realm.io/docs/realm-object-server/) (ROS)
-This package would verify a JWT access_token issued by the [auth0 service](https://auth0.com/)
+##[Realm](https://realm.io/docs/realm-object-server/) [auth0](https://auth0.com/) Authenticator
+This package would verify (on the Real Object Server) a JWT access_token issued by the auth0 service
 
 ##Usage
+Installation:
+```
+npm install realm-auth0-authenticator
+```
+or
+
+```
+yarn add realm-auth0-authenticator
+```
+
 In your ROS configuration.yaml add the following code to the Providers section:
 
 ```yaml
