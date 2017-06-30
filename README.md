@@ -1,7 +1,7 @@
-##[Realm](https://realm.io/docs/realm-object-server/) [auth0](https://auth0.com/) Authenticator
+## [Realm](https://realm.io/docs/realm-object-server/) [auth0](https://auth0.com/) Authenticator
 This package would verify (on the Real Object Server) a JWT access_token issued by the auth0 service
 
-##Usage
+## Usage
 Installation:
 ```
 npm install realm-auth0-authenticator
@@ -49,10 +49,10 @@ I found to force a different error code than 500. You shouldn't send a refresh t
 This code doesn't know how to handle it. Instead you should refresh your token on your client and send the new token
 to ROS
 
-##Contributions
+## Contributions
 All contributions are welcome
 
-##LICENSE
+## LICENSE
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
