@@ -1,7 +1,21 @@
 {
   "name": "realm-auth0-authenticator",
   "description": "Package for the realm Server that authenticates the user using an JWT access_token obtained from auth0",
-  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "version": "0.0.2",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/compojoom/Auth0AuthProvider"
+  },
+  "author": {
+    "name": "Daniel Dimitrov",
+    "email": "daniel@compojoom.com",
+    "url": "https://compojoom.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/compojoom/Auth0AuthProvider/issues"
+  },
+  "keywords": ["realm","auth0","authenticator", "ROS", "Realm Object Server"],
   "dependencies": {
     "jsonwebtoken": "^7.4.1",
     "jwks-rsa": "^1.2.0"
