@@ -5,7 +5,7 @@
   "version": "0.0.2",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/compojoom/Auth0AuthProvider"
+    "url" : "https://github.com/compojoom/realm-auth0-authenticator"
   },
   "author": {
     "name": "Daniel Dimitrov",
@@ -13,7 +13,7 @@
     "url": "https://compojoom.com/"
   },
   "bugs": {
-    "url": "https://github.com/compojoom/Auth0AuthProvider/issues"
+    "url": "https://github.com/compojoom/realm-auth0-authenticator/issues"
   },
   "keywords": ["realm","auth0","authenticator", "ROS", "Realm Object Server"],
   "dependencies": {
